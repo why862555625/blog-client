@@ -1,0 +1,22 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+
+  .body-container {
+    background-color: #fff;
+    .nav {
+      background-color: #f5f7f9;
+      width: 25%;
+    }
+    .body {
+    }
+    .right {
+      width: 25%;
+    }
+  }
+  .header {
+    border-bottom: 3px solid rgb(116 129 141 / 10%);
+    height: 80px;
+    background-color: #ffffff;
+  }
+}
